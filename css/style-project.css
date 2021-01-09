@@ -1,0 +1,607 @@
+
+textarea{
+    width: 680px;
+    height: 80px;
+    border-radius: 17px;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    resize: auto;
+    overflow: auto;
+    width: 680px;
+    height: 80px;
+}
+.wep-page{
+    width: 100%;
+
+}
+
+/* создание шапки сайта */
+.web-page__header{
+    display: flex;
+    max-width: 100%;
+    height: 80px;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background: rgba(70, 26, 105, 0.67);
+}
+
+.web-page__header__left{
+    display: flex
+}
+
+.web-page__header__left__img{
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+
+}
+
+.web-page__header__left__name{
+    position: absolute;
+    height: 40px;
+    width: 335px;
+    left: 105px;
+    top: 8px;
+    font-family: Arial;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    text-align: left;
+    color:rgba(255, 255, 255, 1);
+}
+
+.web-page__header__right{
+    display: flex;
+    
+}
+
+.web-page__header__right__profil{
+    position:absolute;
+    height: 40px;
+    width: 153px;
+    left: 1239px;
+    top: 20px;
+    top: 8px;
+    font-family: Arial;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    text-align: right;
+    color:rgba(255, 255, 255, 1);
+
+}   
+
+.web-page__header__right__exit{
+    position: absolute;
+    height: 40px;
+    width: 103px;
+    left: 1400px;
+    top: 20px;
+    top: 8px;
+    font-family: Arial;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    text-align: right;
+    color:rgba(255, 255, 255, 1);
+
+}
+
+
+/* _____________________________________________________________________________________________ */
+
+
+/* начало контента  */
+.content__left__title{
+    display: flex;
+}
+
+.content__left__title__img{
+    margin-top:  99.921875px;
+    height: 40px;
+    width: 40px;
+    margin-left: 30px;
+    border-radius: 0px;
+
+}
+
+.content__left__title__theme{
+    height: 80px;
+    width: 556px;
+    margin-left: 134px;
+    margin-top: 80px;
+    border-radius: nullpx;
+    font-family: Roboto;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    text-align: center;
+    color: rgba(131, 100, 155, 1);
+}
+
+.content__left__first-card{
+    width: 500px;
+    display: flex;
+}
+
+.content__left__first-card__profil-img{
+    height: 60px;
+    width: 60px;
+    margin-top: 30.08px;
+    margin-left: 30px;
+
+}
+
+.content__left__first-card__text-info{
+    margin-top: 35px;
+    margin-left: 5px;
+    font-family: Arial;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 5px;
+    letter-spacing: 0.1em;
+    text-align: left;
+}
+
+.content__left__first-card__text-info__name{
+    font-weight: 700;
+}
+
+.content__left__first-card__text-info__data{
+    font-weight: 400;
+}
+
+.content__left__first-card__img {
+    height: 29.9991px;
+    width: 30px;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    margin-left: 700px;
+    margin-top: 205px;
+    border-radius: 0px;
+}
+/* конец первой карточки */
+
+.content__left__first-lorem{
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    height: 460px;
+    width: 640px;
+    margin-left: 95px;
+    margin-top: 240px;
+    border-radius: nullpx;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.05em;
+    text-align: justify;
+    color: rgba(0, 0, 0, 1);
+}
+
+.content__left__yoda-img{
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    margin-left: 95px;
+    margin-top: 510px;
+    width: 100%;
+    height: 194px;
+}
+
+/* конец первого лорема и йоды */
+
+.content__left__second-card__profil-img{
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    height: 60px;
+    width: 60px;
+    margin-top: 730px;
+    margin-left: 40px;
+    border-radius: 0px;
+}
+
+.content__left__second-card__text-info{
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    margin-top: 735px;
+    margin-left: 105px;
+    font-family: Arial;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 5px;
+    letter-spacing: 0.1em;
+    text-align: left;
+}
+
+.content__left__second-card__text-info__name{
+    font-weight: 700;
+}
+
+.content__left__second-card__text-info__data{
+    font-weight: 400;
+}
+
+.content__left__second-card__img {
+    height: 29.9991px;
+    width: 30px;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    margin-left: 700px;
+    margin-top: 740px;
+    border-radius: 0px;
+}
+
+.content__left__second-lorem{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.05em;
+    text-align:justify;
+
+    height: 80px;
+    width: 640px;
+    left: 95px;
+    top: 770px;
+    border-radius: nullpx;
+
+}
+
+.first-textarea{
+    margin-top: 900px;    
+    margin-left: 40px;
+}
+
+.send-message{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    margin-top: 950px;
+    margin-left: 690px;
+
+}
+
+/* конец левой части  */
+
+.vertical-line{
+    border: solid 1px rgba(131, 100, 155, 1);
+    transform: rotate(90deg);
+    height: 10px;
+    border-bottom-width: 0px;
+}
+
+.gorizontal-line{
+    margin-left: -10px;
+    margin-top: -105px;
+    width: 2000px;
+    border: solid 1px rgba(131, 100, 155, 1);
+    height: 10px;
+    border-bottom-width: 0px;
+}
+
+
+/* создал полосы */
+
+
+
+.title-right{
+    display: flex;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    margin-top:100px;
+    margin-left: 1000px;
+    
+}
+
+.title-right__text{
+    font-family: Roboto;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    text-align: left;
+    height: 80px;
+    width: 120px;
+    margin-right: 10px;
+    color: rgba(131, 100, 155, 1);
+}
+
+.title-right__img{
+    margin-top: 10px;
+    margin-right: 10px; ;
+    height: 60px;
+    width: 60px;
+
+}
+
+.title-right__info{
+    font-family: Arial;
+    font-size: 18px;
+    font-style: normal;
+    line-height: 15px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    line-height: 5px;
+    margin-top: 10px;
+    color: rgba(131, 100, 155, 1);
+
+}
+
+.title-right__info__name{
+    font-weight: 700;
+}
+
+.title-right__info__date{
+    font-weight: 400;
+}
+
+/* параграф1(то, что находится ниже заголовка */
+.first-paragraph{
+    display: flex;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    margin-top: 195px;
+    margin-left: 790px;
+}
+
+
+.first-paragraph__info{
+    margin-top: 5px;
+    margin-left: 5px;
+    font-family: Arial;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 5px;
+    letter-spacing: 0.1em;
+    text-align: left;
+}
+
+.first-paragraph__info__name{
+    font-weight: 700;
+}
+
+.first-paragraph__info__date{
+    font-weight: 400;
+}
+
+.first-paragraph__lorem{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.05em;
+    text-align:justify;
+
+    height: 80px;
+    width: 640px;
+    left: 65px;
+    top: 40px;
+
+}
+
+/* параграф2(то, что находится ниже заголовка */
+.second-paragraph{
+    display: flex;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    margin-top: 360px;
+    margin-left: 790px;
+}
+
+
+.second-paragraph__info{
+    margin-top: 5px;
+    margin-left: 5px;
+    font-family: Arial;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 5px;
+    letter-spacing: 0.1em;
+    text-align: left;
+}
+
+.second-paragraph__info__name{
+    font-weight: 700;
+}
+
+.second-paragraph__info__date{
+    font-weight: 400;
+}
+
+.second-paragraph__lorem{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.05em;
+    text-align:justify;
+
+    height: 80px;
+    width: 640px;
+    left: 65px;
+    top: 40px;
+
+}
+
+/* параграф3(то, что находится ниже заголовка */
+.third-paragraph{
+    display: flex;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    margin-top: 525px;
+    margin-left: 790px;
+}
+
+
+.third-paragraph__info{
+    margin-top: 5px;
+    margin-left: 5px;
+    font-family: Arial;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 5px;
+    letter-spacing: 0.1em;
+    text-align: left;
+}
+
+.third-paragraph__info__name{
+    font-weight: 700;
+}
+
+.third-paragraph__info__date{
+    font-weight: 400;
+}
+
+.third-paragraph__lorem{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.05em;
+    text-align:justify;
+
+    height: 80px;
+    width: 640px;
+    left: 65px;
+    top: 40px;
+
+}
+
+/* параграф4(то, что находится ниже заголовка */
+.fourth-paragraph{
+    display: flex;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    margin-top: 690px;
+    margin-left: 790px;
+}
+
+
+.fourth-paragraph__info{
+    margin-top: 5px;
+    margin-left: 5px;
+    font-family: Arial;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 5px;
+    letter-spacing: 0.1em;
+    text-align: left;
+}
+
+.fourth-paragraph__info__name{
+    font-weight: 700;
+}
+
+.fourth-paragraph__info__date{
+    font-weight: 400;
+}
+
+.fourth-paragraph__lorem{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.05em;
+    text-align:justify;
+
+    height: 80px;
+    width: 640px;
+    left: 65px;
+    top: 40px;
+
+}
+
+.second-textarea{
+    margin-top: 900px;    
+    margin-left: 800px;
+}
+
+.second-send-message{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    margin-top: 950px;
+    margin-left: 1450px;
+
+}

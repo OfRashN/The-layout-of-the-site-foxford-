@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Литература</title>
+    <link rel="stylesheet" href="css/style-lit.css">
+    <style>
+        /* убираю скролл по горизонтали */
+        html { overflow-x:hidden};
+
+    </style>
+    
+</head>
+<body>
+
+<!-- создаём див для всей страницы -->
+    <div class="web-page">
+        <!-- создаём шапку -->
+        <div class = "web-page__header">
+
+            <!-- левый блок -->
+            <div class = "web-page__header__left">
+
+                <!-- создаём див с вектором -->
+                <div>
+                    <img src="images/Vector.png" 
+                    class="web-page__header__left__img" alt="" >
+                </div>
+
+                <!-- создаём "Имя Фамилия" -->
+                <div class="web-page__header__left__name">
+                    <p>Имя Фамилия</p>
+                </div>
+
+            </div>
+
+            <!-- блок справа -->
+            <div  class="web-page__header__right">
+
+                <!-- создаём "Профиль" -->
+                <div class="web-page__header__right__profil">
+                    <p>Профиль</p>
+                </div>
+
+                <!-- создаём "Выйти" -->
+                <div class="web-page__header__right__exit">
+                    <p>Выйти</p>
+                </div>
+            </div>
+        </div>
+
+
+<!-- __________________________________________________________________________________ -->
+
+
+        <!-- создаём поле с текстом(всё, что находится ниже шапки сайта) -->
+        <div class="content">
+            
+            <!-- создаём левую часть страницы -->
+            <div class="content__left">
+
+                 <!-- создаём заголовок нашей таблицы -->
+                 <div class="content__left__title">
+                    <!-- там будет находится стрелочка и тема -->
+                    <div class="content__left__title__img">
+                        <img src="images/стрелочка влево.png" alt="">
+                    </div>
+
+                    <div class="content__left__title__theme">
+                        <p>Литература</p>
+                    </div>
+                </div>
+
+                <!-- создаём "карточку без границ" -->
+                <div class = "content__left__first-card">
+
+                    <!-- создаём див для профиля, чтобы flex всё сделал за нас -->
+                    <div class = "content__left__first-card__profil-img">
+                        <img src="images/profil.png" alt="">
+                    </div>
+
+                    <!-- создаём "Имя Фамилия" и дату -->
+                    <div class = "content__left__first-card__text-info">
+                        <p class = "content__left__first-card__text-info__name">Имя Фамилия</p>
+
+                        <p class = "content__left__first-card__text-info__data">21.12.2020 20:19</p>
+                    </div>
+
+                    <!-- создаём див для стрелочки  -->
+                    <div class = "content__left__first-card__img">
+                        <img src="images/стрелочка вправо.png" alt="">
+                    </div>
+                </div>
+
+                <!-- создаём первый див для "лорем" и фотографии -->
+                <div class = "content__left__first-lorem"> 
+
+                    <!-- создаём див для "lorem130" -->
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius temporibus quasi nam laborum earum voluptas veniam inventore alias, vero, eveniet, veritatis natus sint beatae? Corrupti non, veniam mollitia nihil accusantium, quasi reprehenderit facilis dolorum blanditiis nobis suscipit doloribus necessitatibus numquam voluptates praesentium. Veniam natus, quod odit doloremque tenetur quisquam, architecto alias quae soluta dolor ratione exercitationem ab numquam, libero asperiores enim officiis? Veniam molestiae nobis accusantium eligendi hic alias deleniti reiciendis nemo architecto, nam quasi vero inventore. Laborum ad iste deserunt nobis enim expedita ut ipsum temporibus et totam atque facere vitae, quasi culpa asperiores quis velit necessitatibus similique fuga corrupti repellendus libero praesentium? Blanditiis nam nisi, quam fugiat ipsam aliquam nulla enim officia amet expedita distinctio. Sequi, dolore doloribus temporibus deserunt sunt maxime, cum repudiandae quod libero, laborum magnam.</p>
+                </div>
+                    
+                <div class = "content__left__yoda-img"> 
+                    <!-- Йода -->
+                    <img src="images/йода.png" alt="">
+                </div>
+
+                <!-- создаём вторую"карточку без границ" -->
+                <div class = "content__left__second-card">
+
+                    <!-- создаём див для img, чтобы flex всё сделал за нас -->
+                    <div class = "content__left__second-card__profil-img">
+                        <img src="images/profil.png" alt="">
+                    </div>
+
+                    
+                    <!-- создаём "Имя Фамилия" и дату -->
+                    <div class = "content__left__second-card__text-info">
+                        <p class = "content__left__second-card__text-info__name">Имя Фамилия</p>
+                        
+                        <p class = "content__left__second-card__text-info__data">21.12.2020 20:19</p>
+                    </div>
+
+                    <!-- создаём второй див для стрелочки  -->
+                    <div class = "content__left__second-card__img">
+                        <img src="images/стрелочка вправо.png" alt="">
+                    </div>
+
+                    <div class = "content__left__second-lorem"> 
+                        <!-- создаём второй див для "lorem44" -->
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque rem, debitis praesentium libero totam numquam adipisci iusto enim quasi, modi voluptatem, vel est laborum ipsa distinctio explicabo tempore. Soluta itaque illo delectus, et dolore, obcaecati rerum neque optio voluptatem iusto animi assumenda officiis quidem.</p>
+                    </div>
+
+                    <!-- делаем input -->
+
+                        <textarea name="text" id="text" cols="97" rows="10" placeholder="    Введите текст" class="first-textarea"></textarea>
+                    <img class="send-message" src="images/отправить.png" alt="">
+                </div>
+            </div>
+
+            <!-- cоздаём разделяющие полосы -->
+            <hr class="vertical-line">
+            <hr class="gorizontal-line">
+
+
+            <!-- создаём заголовок у правой части -->
+            <div class="title-right">
+
+                <!-- создаём "пост от" -->
+                <p class="title-right__text">Пост от</p>
+                
+                <!-- создаём img -->
+                <div class="title-right__img">
+                    <img src="images/Vecto-violet.png" alt="">
+                </div>
+                <!-- чтобы не флексилось всё, сделаю так)) -->
+                <div class="title-right__info">
+
+                    <p class = "title-right__info__name">Имя Фамилия</p>
+
+                    <p class="title-right__info__date">21.12.2020 20:19</p>
+                </div>
+            </div>
+
+        <!-- создаём параграфы(то, что ниже заголовка) -->
+            <!-- создаём first-paragraph у правой части -->
+            <div class="first-paragraph">
+
+                <!-- создаём img -->
+                <div class="first-paragraph__img">
+                    <img src="images/profil.png" alt="">
+                </div>
+            
+                <!-- чтобы не флексилось всё, сделаю так)) -->
+                <div class="first-paragraph__info">
+                    <p class = "first-paragraph__info__name">Имя Фамилия</p>
+            
+                    <p class="first-paragraph__info__date">21.12.2020 20:19</p>
+                </div>
+
+                <!-- создаём лорем44 -->
+                <p class="first-paragraph__lorem">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit, a quos id facilis unde vel quod sed, ex quae eveniet nobis! Neque officiis eaque facilis corrupti quasi. Qui velit, nostrum provident a ipsam neque obcaecati, quisquam inventore accusamus magnam odio dignissimos quos numquam corrupti?</p>
+            </div>
+
+
+            <!-- создаём second-paragraph у правой части -->
+            <div class="second-paragraph">
+
+                <!-- создаём img -->
+                <div class="second-paragraph__img">
+                    <img src="images/profil.png" alt="">
+                </div>
+
+                <!-- чтобы не флексилось всё, сделаю так)) -->
+                <div class="second-paragraph__info">
+                    <p class = "second-paragraph__info__name">Имя Фамилия</p>
+
+                    <p class="second-paragraph__info__date">21.12.2020 20:19</p>
+                </div>
+
+                <!-- создаём лорем44 -->
+                <p class="second-paragraph__lorem">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit, a quos id facilis unde vel quod sed, ex quae eveniet nobis! Neque officiis eaque facilis corrupti quasi. Qui velit, nostrum provident a ipsam neque obcaecati, quisquam inventore accusamus magnam odio dignissimos quos numquam corrupti?</p>
+            </div>
+
+            <!-- создаём third-paragraph у правой части -->
+            <div class="third-paragraph">
+
+                <!-- создаём img -->
+                <div class="third-paragraph__img">
+                    <img src="images/profil.png" alt="">
+                </div>
+            
+                <!-- чтобы не флексилось всё, сделаю так)) -->
+                <div class="third-paragraph__info">
+                    <p class = "third-paragraph__info__name">Имя Фамилия</p>
+            
+                    <p class="third-paragraph__info__date">21.12.2020 20:19</p>
+                </div>
+
+                <!-- создаём лорем44 -->
+                <p class="third-paragraph__lorem">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit, a quos id facilis unde vel quod sed, ex quae eveniet nobis! Neque officiis eaque facilis corrupti quasi. Qui velit, nostrum provident a ipsam neque obcaecati, quisquam inventore accusamus magnam odio dignissimos quos numquam corrupti?</p>
+            </div>
+
+
+            <!-- создаём fourth-paragraph у правой части -->
+            <div class="fourth-paragraph">
+
+                <!-- создаём img -->
+                <div class="fourth-paragraph__img">
+                    <img src="images/profil.png" alt="">
+                </div>
+
+                <!-- чтобы не флексилось всё, сделаю так)) -->
+                <div class="fourth-paragraph__info">
+                    <p class = "fourth-paragraph__info__name">Имя Фамилия</p>
+
+                    <p class="fourth-paragraph__info__date">21.12.2020 20:19</p>
+                </div>
+
+                <!-- создаём лорем44 -->
+                <p class="fourth-paragraph__lorem">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit, a quos id facilis unde vel quod sed, ex quae eveniet nobis! Neque officiis eaque facilis corrupti quasi. Qui velit, nostrum provident a ipsam neque obcaecati, quisquam inventore accusamus magnam odio dignissimos quos numquam corrupti?</p>
+            </div>
+        
+            <textarea name="text" id="text" cols="97" rows="10" placeholder="    Введите текст" class="second-textarea"></textarea>
+            
+            <img class="second-send-message" src="images/отправить.png" alt="">
+
+        </div>
+    </div>
+</body>
+</html>
